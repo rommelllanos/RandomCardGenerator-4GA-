@@ -7,7 +7,7 @@
 $ npm install
 ```
 
-2) Build and Start coding!
+2) Build and Start
 
 Build the application for the first time...
 
