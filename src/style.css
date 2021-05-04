@@ -1,0 +1,260 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: #246756;
+}
+
+i {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+img {
+  opacity: 20%;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  filter: blur(20px);
+}
+
+button {
+  border-style: none !important;
+  color: rgb(235, 235, 235) !important;
+  display: block !important;
+  padding: 40px !important;
+  border-radius: 150px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-weight: 700 !important;
+  margin: auto;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.element {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+      farthest-side at bottom left,
+      rgba(255, 0, 255, 0.5),
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      rgba(255, 50, 50, 0.5),
+      transparent 400px
+    );
+  position: fixed;
+}
+
+.container {
+  width: 100%;
+}
+.title {
+  text-align: left;
+  transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;
+  font-family: "Bebas Neue", cursive;
+  height: 1080px;
+  width: 100px !important;
+  position: relative;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1.4;
+  color: #bbb;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.name {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 0px;
+}
+
+#counter {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 9;
+
+  color: rgb(235, 235, 235);
+  padding: 9px 0px 0px 0px;
+  border-radius: 150px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-weight: 700 !important;
+  margin: 0px auto -30px auto;
+  right: 50px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.281) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.insideTitle {
+  width: max-content;
+  margin: auto;
+  position: relative;
+  top: 400px;
+  opacity: 50%;
+  background-image: url("https://images.unsplash.com/photo-1588097281266-310cead47879?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.836);
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em;
+  transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;
+}
+
+.cardImage {
+  position: relative;
+  border-radius: 20px;
+  opacity: 40%;
+  filter: contrast(1.75);
+  filter: grayscale(1);
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.pokerCard {
+  background-color: rgb(236, 236, 236);
+  vertical-align: text-bottom;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background-color: rgba(255, 255, 255, 0.349) !important;
+  backdrop-filter: blur(5px);
+}
+.value {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(44, 44, 44);
+  font-size: 100px;
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.topSuit {
+  font-size: 40px;
+  margin: 0;
+  top: 0px;
+  left: 20px;
+  position: absolute;
+}
+
+.bottomSuit {
+  font-size: 40px;
+  margin: 0;
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  margin: 170px auto 70px auto;
+  background-color: transparent;
+  width: 200px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container and the card is hidden*/
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+/* Do a little twist when the card is shown*/
+.flip-card:hover .flipCard {
+  transform: rotateY(-200deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  background-color: rgba(255, 255, 255, 0.356) !important;
+  backdrop-filter: blur(5px);
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  border-radius: 20px;
+  background-color: #bbb;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.356) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* Style the back side */
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  background-color: rgba(255, 255, 255, 0.356) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.flipCard {
+  transform: rotateY(-180deg);
+}
+
+.col-1 {
+  transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;
+}
+.titulazo {
+  top: 580px;
+  font-size: auto;
+  padding-bottom: 170px;
+  transform: rotate(-90deg);
+  transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;
+}
+
+#section {
+  transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;
+}
